@@ -1,0 +1,55 @@
+name: template
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  dio:
+  pretty_dio_logger:
+  get:
+  rflutter_alert:
+  shared_preferences:
+  cached_network_image: ^3.2.0
+  flutter_svg:
+  get_it:
+  intl:
+  connectivity:
+  show_up_animation:
+  auto_size_text:
+  permission_handler:
+  shimmer:
+  country_code_picker:
+  url_launcher:
+  pinput:
+  image_picker: ^1.1.2
+  lottie:
+  geolocator:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/language/
+    - assets/image/
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/font/Quicksand-Regular.ttf
+          weight: 400
+        - asset: assets/font/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/font/Quicksand-Light.ttf
+          weight: 700
+        - asset: assets/font/Quicksand-Bold.ttf
+          weight: 900
+  
